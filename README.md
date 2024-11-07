@@ -4,6 +4,8 @@ A yoga classifier based on [Yoga Kaggle Dataset](https://www.kaggle.com/datasets
 
 ## Demo
 
+[Streamlit site](https://yoga-classification-web-demo.streamlit.app/)
+
 | Light                              | Dark                             |
 | ---------------------------------- | -------------------------------- |
 | ![light theme](./assets/light.png) | ![dark theme](./assets/dark.png) |
