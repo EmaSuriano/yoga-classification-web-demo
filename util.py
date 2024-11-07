@@ -29,7 +29,7 @@ def classify(image, model, class_names):
     image_array = np.asarray(image)
 
     # normalize image
-    normalized_image_array = tf.keras.applications.efficientnet.preprocess_input(
+    normalized_image_array = tf.keras.applications.vgg16.preprocess_input(
         image_array.astype(np.float32)
     )
 
