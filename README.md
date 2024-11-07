@@ -2,6 +2,12 @@
 
 A yoga classifier based on [Yoga Kaggle Dataset](https://www.kaggle.com/datasets/tr1gg3rtrash/yoga-posture-dataset)
 
+## Demo
+
+| Light                              | Dark                             |
+| ---------------------------------- | -------------------------------- |
+| ![light theme](./assets/light.png) | ![dark theme](./assets/dark.png) |
+
 ## Setup local
 
 1. Setup virtual env
