@@ -15,7 +15,7 @@ with open("./model/Poses.json", "r", encoding="utf-8") as file:
     data = json.load(file)
     df = pd.DataFrame(data["Poses"])
 
-with st.expander("See trained proses"):
+with st.expander("See trained poses"):
     st.data_editor(
         df,
         column_config={
@@ -40,7 +40,7 @@ model = load_model("./model/vgg16-ft.h5")
 # display image
 if file is not None:
     image = Image.open(file).convert("RGB")
-    st.image(image, use_column_width=True)
+    st.image(image, use_container_width=True)
 
     # classify image
     class_name, conf_score = classify(image, model, class_names)
